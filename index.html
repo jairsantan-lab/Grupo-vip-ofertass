@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grupo VIP de Ofertas</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#fff;
+    color:#171717;
+}
+
+.container{
+    max-width:480px;
+    margin:auto;
+    padding:16px;
+}
+
+.alert{
+    text-align:center;
+    color:#e5092f;
+    font-weight:900;
+    font-size:15px;
+    margin:8px 0 16px;
+}
+
+.hero{
+    width:100%;
+    display:block;
+    border-radius:18px;
+    margin-bottom:20px;
+}
+
+h1{
+    text-align:center;
+    font-size:28px;
+    line-height:1.15;
+    font-weight:900;
+    margin-bottom:12px;
+}
+
+h1 span{color:#f22965}
+
+.sub{
+    text-align:center;
+    color:#444;
+    font-size:16px;
+    line-height:1.5;
+}
+
+.social{
+    text-align:center;
+    font-weight:900;
+    margin:18px 0;
+}
+
+.cta{
+    display:block;
+    width:100%;
+    padding:18px 10px;
+    background:#16b84e;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    border-radius:13px;
+    font-size:19px;
+    font-weight:900;
+    box-shadow:0 5px 0 #08752f;
+    animation:pulse 1.8s infinite;
+}
+
+@keyframes pulse{
+    0%,100%{transform:scale(1)}
+    50%{transform:scale(1.025)}
+}
+
+.cta:active{
+    transform:translateY(4px);
+    box-shadow:0 1px 0 #08752f;
+}
+
+.free{
+    text-align:center;
+    color:#777;
+    font-size:12px;
+    margin:12px 0 22px;
+}
+
+.progress-title{
+    display:flex;
+    justify-content:space-between;
+    font-weight:800;
+    font-size:13px;
+    margin-bottom:7px;
+}
+
+.progress{
+    height:13px;
+    background:#e7e7e7;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    width:48%;
+    height:100%;
+    background:#16b84e;
+    border-radius:20px;
+}
+
+.vagas{
+    text-align:center;
+    color:#e5092f;
+    font-weight:900;
+    font-size:16px;
+    margin:12px 0 18px;
+}
+
+.notification{
+    background:#f4f4f4;
+    border-radius:10px;
+    padding:12px;
+    text-align:center;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+.card{
+    border:1px solid #e8e8e8;
+    border-radius:15px;
+    padding:18px;
+    margin-bottom:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.06);
+}
+
+.card h2{
+    font-size:18px;
+    margin-bottom:7px;
+}
+
+.card p{
+    color:#555;
+    font-size:14px;
+    line-height:1.45;
+}
+
+.footer{
+    text-align:center;
+    color:#888;
+    font-size:11px;
+    margin:25px 0 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="alert">
+🔥 ÚLTIMAS VAGAS DISPONÍVEIS 🔥
+</div>
+
+<!-- IMAGEM GERADA -->
+<img src="hero.png" class="hero" alt="Grupo VIP de ofertas">
+
+<h1>
+Amiga, eu garimpo as <span>melhores promoções</span> da internet 💖
+</h1>
+
+<p class="sub">
+Entre no meu <strong>Grupo VIP</strong> e receba todos os dias
+promoções, cupons e achadinhos para pagar pouco
+sem perder horas procurando.
+</p>
+
+<div class="social">
+🔥 Entre gratuitamente e receba as melhores ofertas
+</div>
+
+<a class="cta"
+href="https://chat.whatsapp.com/LbRZpoxEkYQ06oZGNBnN76"
+target="_blank">
+💚 QUERO ENTRAR AGORA
+</a>
+
+<div class="free">
+🔒 Grupo gratuito &nbsp; • &nbsp; 🔕 Silencioso &nbsp; • &nbsp; 🛡️ Sem spam
+</div>
+
+<div class="progress-title">
+<span>Vagas preenchidas</span>
+<span>48%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+<div class="vagas">
+⚠️ Restam poucas vagas
+</div>
+
+<div class="notification" id="notification">
+🟢 Alguém acabou de entrar no grupo
+</div>
+
+<div class="card">
+<h2>🎟️ Cupons que funcionam</h2>
+<p>
+Cupons e descontos selecionados para você
+economizar de verdade.
+</p>
+</div>
+
+<div class="card">
+<h2>🏠 Casa & decoração</h2>
+<p>
+Achadinhos para casa, decoração, cama, banho
+e produtos que valem a pena.
+</p>
+</div>
+
+<div class="card">
+<h2>👗 Moda & beleza</h2>
+<p>
+Roupas, acessórios, beleza e produtos
+selecionados com ótimos preços.
+</p>
+</div>
+
+<div class="card">
+<h2>⚡ Ofertas relâmpago</h2>
+<p>
+Descubra quando os preços despencarem
+antes que a promoção acabe.
+</p>
+</div>
+
+<div class="card">
+<h2>🔗 Links verificados</h2>
+<p>
+Ofertas selecionadas com links confiáveis
+para você comprar com mais segurança.
+</p>
+</div>
+
+<a class="cta"
+href="https://chat.whatsapp.com/LbRZpoxEkYQ06oZGNBnN76"
+target="_blank">
+🔥 QUERO ENTRAR NO GRUPO
+</a>
+
+<div class="footer">
+Política de Privacidade • Termos de Uso
+<br><br>
+Curadoria de ofertas 💖
+</div>
+
+</div>
+
+<script>
+
+const mensagens = [
+"🟢 Alguém acabou de entrar no grupo",
+"🟢 Nova participante entrou agora",
+"🟢 Alguém entrou para receber as ofertas 🔥",
+"🟢 Nova pessoa acabou de entrar",
+"🟢 Participante entrou no Grupo VIP"
+];
+
+let i = 0;
+
+setInterval(() => {
+
+const notification =
+document.getElementById("notification");
+
+notification.style.opacity = "0";
+
+setTimeout(() => {
+
+i = (i + 1) % mensagens.length;
+
+notification.innerHTML = mensagens[i];
+
+notification.style.opacity = "1";
+
+},300);
+
+},3500);
+
+</script>
+
+</body>
+</html>
